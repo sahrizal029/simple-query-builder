@@ -1,6 +1,6 @@
 <?php
 
-require 'db.php';
+require '../db.php';
 
 $db = new Database();
 $delete = $db->delete('outlet', ['id_outlet' => '4']);

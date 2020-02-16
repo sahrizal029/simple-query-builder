@@ -1,6 +1,6 @@
 <?php
 
-require 'db.php';
+require '../db.php';
 
 $db = new Database();
 $insert = $db->insert('outlet', [
